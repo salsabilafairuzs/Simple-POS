@@ -8,14 +8,15 @@ This project is a simple Point of Sale (POS) system designed for small to medium
 - Product management (CRUD operations) + Search feature
 - RESTful API for integration
 
-<!-- ## Database Design
-<img src="Graphviz/graph.png" alt="Database Design" width="50%"> -->
+## Database Design
+<img src="Graphviz/graph.png" alt="Database Design" width="50%">
+
 
 ## Screenshots
 <img src="Graphviz/Screenshot-apk/login.png" alt="Dashboard">
 <img src="Graphviz/Screenshot-apk/dashboard.png" alt="Dashboard">
 <img src="Graphviz/Screenshot-apk/category.png" alt="Category">
-<img src="Graphviz/Screenshot-apk/product.png" alt="Product">
+<img src="Graphviz/Screenshot-apk/product.png" alt="Category">
 
 ## Dependency
 1. PHP 7.4
