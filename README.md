@@ -12,10 +12,10 @@ This project is a simple Point of Sale (POS) system designed for small to medium
 <img src="Graphviz/graph.png" alt="Database Design">
 
 ## Sceenshot Aplikasi 
-![Login] <img src="Graphviz/Screenshot-apk/login.png" alt="Dashboard">
-![Dashboard] <img src="Graphviz/Screenshot-apk/dashboard.png" alt="Dashboard">
-![Category] <img src="Graphviz/Screenshot-apk/category.png" alt="Category">
-![Product] <img src="Graphviz/Screenshot-apk/product.png" alt="Product">
+### Login <img src="Graphviz/Screenshot-apk/login.png" alt="Dashboard">
+### Dashboard <img src="Graphviz/Screenshot-apk/dashboard.png" alt="Dashboard">
+### Category <img src="Graphviz/Screenshot-apk/category.png" alt="Category">
+### Product <img src="Graphviz/Screenshot-apk/product.png" alt="Product">
 
 ## Dependency
 1. PHP 7.4
