@@ -1,4 +1,3 @@
-
 ## Project Description
 
 This project is a simple Point of Sale (POS) system designed for small to medium-sized businesses. I created this system to fulfill the administrative requirements where the available features are very simple and there are only 3 tables. This project is only as a result of working on the challenge that has been given so it is not recommended to use it again. This project could be used in the future with the addition of more complex features.
@@ -10,8 +9,16 @@ This project is a simple Point of Sale (POS) system designed for small to medium
 - RESTful API for integration
 
 ## Database Design
+<img src="Graphviz/graph.png" alt="Database Design">
 
 ## Sceenshot Aplikasi 
+| Dashboard | Category Management |
+|-----------|---------------------|
+| ![Dashboard](https://via.placeholder.com/400x200.png?text=Dashboard) | ![Category Management](https://via.placeholder.com/400x200.png?text=Category+Management) |
+| **Product Management** | **Sales Report** |
+| ![Product Management](https://via.placeholder.com/400x200.png?text=Product+Management) | ![Sales Report](https://via.placeholder.com/400x200.png?text=Sales+Report) |
+
+
 
 ## Dependency
 1. PHP 7.4
