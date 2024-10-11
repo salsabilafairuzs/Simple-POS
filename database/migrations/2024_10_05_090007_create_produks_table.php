@@ -18,7 +18,6 @@ class CreateProduksTable extends Migration
             $table->string('nama_produk');
             $table->integer('kategori_id');
             $table->string('nama_brand');
-            $table->string('unit');
             $table->text('deskripsi')->nullable();
             $table->text('gambar');
             $table->timestamps();

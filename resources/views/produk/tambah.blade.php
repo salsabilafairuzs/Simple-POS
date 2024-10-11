@@ -25,14 +25,6 @@
                     <span class="text-danger">{{ $errors->first('brand') }}</span>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Unit</label>
-                    <select name="unit" class="form-control">
-                        <option value="Pieces">Pieces</option>
-                        <option value="Box">Box</option>
-                    </select> 
-                    <span class="text-danger">{{ $errors->first('unit') }}</span>
-                </div>
-                <div class="mb-3">
                     <label class="form-label">Description</label>
                     <input type="text" class="form-control" name="deskripsi" >
                     <span class="text-danger">{{ $errors->first('deskripsi') }}</span>

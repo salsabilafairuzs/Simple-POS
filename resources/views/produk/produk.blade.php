@@ -68,9 +68,6 @@
                                         <h6 class="fw-semibold mb-0">Brand Name</h6>
                                     </th>
                                     <th class="border-bottom-0">
-                                        <h6 class="fw-semibold mb-0">Unit</h6>
-                                    </th>
-                                    <th class="border-bottom-0">
                                         <h6 class="fw-semibold mb-0">Description</h6>
                                     </th>
                                     <th class="border-bottom-0">
@@ -100,9 +97,6 @@
                                     </td>
                                     <td class="border-bottom-0">
                                         <h6 class=" fw-normal mb-0">{{ $item->nama_brand }}</h6>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <h6 class=" fw-normal mb-0">{{ $item->unit}}</h6>
                                     </td>
                                     <td class="border-bottom-0">
                                         <h6 class=" fw-normal mb-0">{{ $item->deskripsi}}</h6>

@@ -22,10 +22,6 @@
                                 <td>{{ $produk->nama_brand }}</td>
                             </tr>
                             <tr>
-                                <th>Unit</th>
-                                <td>{{ $produk->unit }}</td>
-                            </tr>
-                            <tr>
                                 <th>Description</th>
                                 <td>{{ $produk->deskripsi }}</td>
                             </tr>

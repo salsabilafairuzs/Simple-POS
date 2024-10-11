@@ -45,7 +45,6 @@ class ProdukController extends Controller
             'produk' => ['required'],
             'kategori' => ['required'],
             'brand' => ['required'],
-            'unit' => ['required'],
             'deskripsi' => ['required'],
             'gambar' => ['required', 'image', 'mimes:jpeg,png,jpg', 'max:2048'],
 
@@ -53,7 +52,6 @@ class ProdukController extends Controller
             'produk.required'=> 'Product Name Required !',
             'kategori.required'=> 'Category Name Required !',
             'brand.required'=> 'Brand Name Required !',
-            'unit.required'=> 'Unit Required !',
             'deskripsi.required'=> 'Description required !',
             'gambar.required' => 'Image required !',
             'gambar.image' => 'File must be an image !',
@@ -70,7 +68,6 @@ class ProdukController extends Controller
         $data->nama_produk = $request['produk'];
         $data->kategori_id = $request['kategori'];
         $data->nama_brand = $request['brand'];
-        $data->unit = $request['unit'];
         $data->deskripsi = $request['deskripsi'];
         if ($request->file('gambar')->isValid()) {
             $file = $request->file('gambar');
@@ -124,7 +121,6 @@ class ProdukController extends Controller
             'produk' => ['required'],
             'kategori' => ['required'],
             'brand' => ['required'],
-            'unit' => ['required'],
             'deskripsi' => ['required'],
             'gambar' => ['required', 'image', 'mimes:jpeg,png,jpg', 'max:2048'],
 
@@ -132,7 +128,6 @@ class ProdukController extends Controller
             'produk.required'=> 'Product Name Required !',
             'kategori.required'=> 'Category Name Required !',
             'brand.required'=> 'Brand Name Required !',
-            'unit.required'=> 'Unit Required !',
             'deskripsi.required'=> 'Description required !',
             'gambar.required' => 'Image required !',
             'gambar.image' => 'File must be an image !',
@@ -149,7 +144,6 @@ class ProdukController extends Controller
         $data->nama_produk = $request['produk'];
         $data->kategori_id = $request['kategori'];
         $data->nama_brand = $request['brand'];
-        $data->unit = $request['unit'];
         $data->deskripsi = $request['deskripsi'];
         if ($request->file('gambar')->isValid()) {
             $file = $request->file('gambar');
