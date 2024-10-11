@@ -12,7 +12,7 @@ This project is a simple Point of Sale (POS) system designed for small to medium
 <img src="Graphviz/graph.png" alt="Database Design">
 
 ## Screenshots
-<img src="Graphviz/Screenshot-apk/login.png" alt="Dashboard">
+<img src="Graphviz/Screenshot-apk/login.png" alt="Dashboard" width="50 >
 <img src="Graphviz/Screenshot-apk/dashboard.png" alt="Dashboard">
 <img src="Graphviz/Screenshot-apk/category.png" alt="Category">
 <img src="Graphviz/Screenshot-apk/product.png" alt="Product">
@@ -32,9 +32,9 @@ This project is a simple Point of Sale (POS) system designed for small to medium
 | POST        | `/api/kategori/api`        | Create a new category                     |
 | GET         | `/api/kategori/api`        | Retrieve all categories                   |
 | POST        | `/api/kategori/api/search` | Search categories                         |
-| DELETE      | `/api/kategori/api/{api}`  | Delete a specific category                |
-| PUT/PATCH   | `/api/kategori/api/{api}`  | Update a specific category                |
-| GET         | `/api/kategori/api/{api}`  | Retrieve details of a specific category   |
+| DELETE      | `/api/kategori/api/{id}`  | Delete a specific category                |
+| PUT/PATCH   | `/api/kategori/api/{id}`  | Update a specific category                |
+| GET         | `/api/kategori/api/{id}`  | Retrieve details of a specific category   |
 
 ### Product Endpoints
 
@@ -43,9 +43,9 @@ This project is a simple Point of Sale (POS) system designed for small to medium
 | POST        | `/api/produk/api`         | Create a new product                     |
 | GET         | `/api/produk/api`         | Retrieve all products                    |
 | POST        | `/api/produk/api/search`  | Search products                          |
-| DELETE      | `/api/produk/api/{api}`   | Delete a specific product                |
-| PUT/PATCH   | `/api/produk/api/{api}`   | Update a specific product                |
-| GET         | `/api/produk/api/{api}`   | Retrieve details of a specific product   |
+| DELETE      | `/api/produk/api/{id}`   | Delete a specific product                |
+| PUT/PATCH   | `/api/produk/api/{id}`   | Update a specific product                |
+| GET         | `/api/produk/api/{id}`   | Retrieve details of a specific product   |
 
 
 ## Installation
