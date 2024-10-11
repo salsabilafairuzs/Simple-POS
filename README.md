@@ -12,7 +12,7 @@ This project is a simple Point of Sale (POS) system designed for small to medium
 <img src="Graphviz/graph.png" alt="Database Design">
 
 ## Screenshots
-<img src="Graphviz/Screenshot-apk/login.png" alt="Dashboard" width="50 >
+<img src="Graphviz/Screenshot-apk/login.png" alt="Dashboard" width="20%">
 <img src="Graphviz/Screenshot-apk/dashboard.png" alt="Dashboard">
 <img src="Graphviz/Screenshot-apk/category.png" alt="Category">
 <img src="Graphviz/Screenshot-apk/product.png" alt="Product">
