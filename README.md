@@ -24,15 +24,6 @@ This project is a simple Point of Sale (POS) system designed for small to medium
 4. Bootstrap 5
 5. Node.js and NPM (for compiling assets)
 
-## Installation
-
-1. Clone the repository
-2. Run `composer install`
-3. Copy `.env.example` to `.env` and configure your database
-4. Run `php artisan key:generate`
-5. Run `php artisan migrate --seed`
-6. Run `npm install && npm run dev`
-
 ## API Endpoints
 ### Category Endpoints
 
@@ -55,6 +46,17 @@ This project is a simple Point of Sale (POS) system designed for small to medium
 | DELETE      | `/api/produk/api/{api}`   | Delete a specific product                |
 | PUT/PATCH   | `/api/produk/api/{api}`   | Update a specific product                |
 | GET         | `/api/produk/api/{api}`   | Retrieve details of a specific product   |
+
+
+## Installation
+
+1. Clone the repository
+2. Run `composer install`
+3. Copy `.env.example` to `.env` and configure your database
+4. Run `php artisan key:generate`
+5. Run `php artisan migrate --seed`
+6. Run `npm install && npm run dev`
+
 
 ## Contributing
 
