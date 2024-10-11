@@ -14,7 +14,8 @@ This project is a simple Point of Sale (POS) system designed for small to medium
 ## Sceenshot Aplikasi 
 | Dashboard | Category Management |
 |-----------|---------------------|
-| ![Dashboard](https://via.placeholder.com/400x200.png?text=Dashboard) | ![Category Management](https://via.placeholder.com/400x200.png?text=Category+Management) |
+| ![Dashboard](<img src="Graphviz/graph.png" alt="Database Design">)
+ | ![Category Management](https://via.placeholder.com/400x200.png?text=Category+Management) |
 | **Product Management** | **Sales Report** |
 | ![Product Management](https://via.placeholder.com/400x200.png?text=Product+Management) | ![Sales Report](https://via.placeholder.com/400x200.png?text=Sales+Report) |
 
