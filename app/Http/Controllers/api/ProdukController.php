@@ -46,7 +46,6 @@ class ProdukController extends Controller
             'produk' => ['required'],
             'kategori' => ['required'],
             'brand' => ['required'],
-            'unit' => ['required'],
             'deskripsi' => ['required'],
             'gambar' => ['required', 'image', 'mimes:jpeg,png,jpg', 'max:2048'],
 
@@ -54,12 +53,11 @@ class ProdukController extends Controller
             'produk.required'=> 'Product Name Required !',
             'kategori.required'=> 'Category Name Required !',
             'brand.required'=> 'Brand Name Required !',
-            'unit.required'=> 'Unit Required !',
             'deskripsi.required'=> 'Description required !',
-            'foto.required' => 'Image required !',
-            'foto.image' => 'File must be an image !',
-            'foto.mimes' => 'File format must be jpeg, png, or jpg !',
-            'foto.max' => 'Maximum file size is 2MB !',
+            'gambar.required' => 'Image required !',
+            'gambar.image' => 'File must be an image !',
+            'gambar.mimes' => 'File format must be jpeg, png, or jpg !',
+            'gambar.max' => 'Maximum file size is 2MB !',
         ]);
 
         if ($cek->fails()) {
@@ -73,7 +71,6 @@ class ProdukController extends Controller
         $data->nama_produk = $request['produk'];
         $data->kategori_id = $request['kategori'];
         $data->nama_brand = $request['brand'];
-        $data->unit = $request['unit'];
         $data->deskripsi = $request['deskripsi'];
         if ($request->file('gambar')->isValid()) {
             $file = $request->file('gambar');
@@ -140,14 +137,12 @@ class ProdukController extends Controller
             'produk' => ['required'],
             'kategori' => ['required'],
             'brand' => ['required'],
-            'unit' => ['required'],
             'deskripsi' => ['required'],
             'gambar' => ['image', 'mimes:jpeg,png,jpg', 'max:2048'],
         ], [
             'produk.required' => 'Product Name Required!',
             'kategori.required' => 'Category Name Required!',
             'brand.required' => 'Brand Name Required!',
-            'unit.required' => 'Unit Required!',
             'deskripsi.required' => 'Description Required!',
             'gambar.image' => 'File must be an image!',
             'gambar.mimes' => 'File format must be jpeg, png, or jpg!',
@@ -157,7 +152,7 @@ class ProdukController extends Controller
         if ($validator->fails()) {
             return response()->json([
                 'code' => 404,
-                'message' => 'Gagal menyimpan data!',
+                'message' => 'Update Data Gagal!',
                 'error' => $validator->errors()
             ]);
         }
@@ -173,7 +168,6 @@ class ProdukController extends Controller
         $data->nama_produk = $request->input('produk');
         $data->kategori_id = $request->input('kategori');
         $data->nama_brand = $request->input('brand');
-        $data->unit = $request->input('unit');
         $data->deskripsi = $request->input('deskripsi');
     
         if ($request->hasFile('gambar') && $request->file('gambar')->isValid()) {
@@ -189,7 +183,7 @@ class ProdukController extends Controller
     
         return response()->json([
             'code' => 200,
-            'message' => 'Berhasil menyimpan data',
+            'message' => 'Update Data Berhasil',
             'data' => $data2
         ]);
     }
